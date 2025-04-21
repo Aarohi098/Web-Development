@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form oninput="x.value=(parseInt(m1.value) + parseInt(m2.value)) / 2">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <p>
+                <label>Name:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Email:</label>
+                <input type="email">
+            </p>
+            <p>
+                <label>Password</label>
+                <input type="password">
+            </p>
+            <p>
+                <label>Gender:</label> <br>
+                <input type="radio" name="gender">Female <br>
+                <input type="radio" name="gender">Male
+            </p>
+            <p>
+                <label>
+                    <h4>Hobbies</h4>
+                </label>
+                <input type="checkbox">Reading <br>
+                <input type="checkbox">Writing <br>
+                <input type="checkbox">Singing
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h4>Marks</h4>
+            </legend>
+            <p>
+                <select>
+                    <option>Choose your subject</option>
+                    <option>Maths</option>
+                    <option>Science</option>
+                </select>
+                <input type="number" id="m1">
+            </p>
+            <p>
+                <select>
+                    <option>Choose your subject</option>
+                    <option>Maths</option>
+                    <option>Science</option>
+                </select>
+                <input type="number" id="m2">
+            </p>
+        </fieldset>
+        <p>
+            <output name="x">0</output>
+        </p>
+        <p>
+            <input type="submit">
+        </p>
+    </form>
+</body>
+
+</html>
