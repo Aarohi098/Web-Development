@@ -1,0 +1,24 @@
+/*UNIVERSAL SELECTORS*/
+* {
+    font-family: cursive;
+}
+
+h3 {
+    color: coral;
+}
+
+/*CLASS SELECTORS*/
+.myclass {
+    color: rgb(98, 195, 98);
+}
+
+/*ID SELECTORS*/
+#myid {
+    color: pink;
+}
+
+/*GROUP SELECTORS*/
+h6,
+p {
+    font-size: 15px;
+}
