@@ -1,0 +1,56 @@
+.background_section {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(167, 194, 245);
+    background-image: url("bg.jpg")
+}
+
+body {
+    height: 100vh;
+    background-color: cadetblue;
+    background-image: url("tree.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom right;
+    background-attachment: fixed
+}
+
+.gradient_section {
+    width: 100%;
+    height: 150px;
+    background-color: deepskyblue;
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(117, 117, 214), rgb(197, 97, 197), rgb(187, 105, 119));
+}
+
+.animation_section {
+    width: 100%;
+    height: 150px;
+    background-color: pink;
+    margin-top: 20px;
+    animation-name: myanimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite
+}
+
+@keyframes myanimation {
+    0% {
+        background-color: rgb(117, 117, 202);
+    }
+
+    25% {
+        background-color: rgb(95, 180, 95)
+    }
+
+    50% {
+        background-color: rgb(188, 104, 188)
+    }
+
+    75% {
+        background-color: rgb(202, 173, 119)
+    }
+
+    100% {
+        background-colour: pink
+    }
+}
