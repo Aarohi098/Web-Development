@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 243, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgb(116, 115, 115);
+    width: 350px;
+    text-align: center;
+    transform: rotate(0.5deg)
+}
+
+.name {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(115, 115, 115)
+}
+
+.occupation {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(113, 105, 105);
+    text-decoration: underline;
+}
+
+.about {
+    text-indent: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.info {
+    list-style: none;
+}
+
+.email {
+    font-weight: 300;
+}
+
+.email a {
+    text-decoration: none;
+}
+
+.status {
+    text-decoration: line-through;
+    color: red;
+    text-transform: lowercase;
+}
