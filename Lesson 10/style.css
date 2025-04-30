@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white
+}
+
+h1 {
+    color: rgb(172, 99, 240);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+h2+p {
+    background-color: rgb(87, 83, 83);
+}
+
+ul li:hover {
+    color: grey
+}
+
+ul li:nth-child(3) {
+    background-color: rgb(145, 53, 232);
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+ul li:before {
+    content: "🚀 "
+}
+
+a {
+    color: rgb(160, 210, 226);
+    text-decoration: none;
+}
+
+a::after {
+    content: " 🛳️";
+}
+
+a:hover {
+    text-decoration: underline;
+}
