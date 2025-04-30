@@ -17,7 +17,7 @@ body {
 .poster {
     background-color: white;
     height: 500px;
-    width: 380px;
+    width: 400px;
     box-shadow: 0 8px 16px rgb(156, 152, 152);
     text-align: center;
     transform: rotate(1deg);
@@ -36,4 +36,32 @@ body {
     width: 300px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.animation {
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+    0% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: orange;
+    }
+
+    40% {
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: skyblue;
+
+    }
 }
