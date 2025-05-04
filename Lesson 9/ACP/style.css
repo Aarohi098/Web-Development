@@ -1,0 +1,84 @@
+.amur_leopard {
+    background-color: white;
+    text-align: center;
+    width: 425px;
+    box-shadow: 0 8px 16px grey;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(145, 219, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.vaquita {
+    background-color: white;
+    text-align: center;
+    width: 425px;
+    box-shadow: 0 8px 16px grey;
+}
+
+.turtle {
+    background-color: white;
+    text-align: center;
+    width: 425px;
+    box-shadow: 0 8px 16px grey;
+}
+
+.ibis {
+    background-color: white;
+    text-align: center;
+    width: 425px;
+    box-shadow: 0 8px 16px grey;
+}
+
+.orangutan {
+    background-color: white;
+    text-align: center;
+    width: 425px;
+    box-shadow: 0 8px 16px grey;
+}
+
+.risk-level {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(138, 0, 0);
+    margin-top: 10px;
+}
+
+.summary {
+    font-size: 16px;
+    font-style: italic;
+    color: #5a5a5a;
+    margin-top: 10px;
+    padding: 5px 10px;
+    line-height: 1.4;
+}
+
+.details {
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.alert-red {
+    text-decoration: line-through;
+    color: rgb(228, 18, 18);
+}
+
+.alert {
+    color: rgb(228, 18, 18);
+}
