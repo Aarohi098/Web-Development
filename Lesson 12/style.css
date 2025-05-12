@@ -1,0 +1,58 @@
+.static {
+    border: 5px solid red;
+    position: static;
+}
+
+.sticky {
+    border: 5px solid navy;
+    position: sticky;
+    top: 0;
+}
+
+.fixed {
+    border: 5px solid cadetblue;
+    position: fixed;
+    bottom: 0;
+}
+
+.relative {
+    border: 5px solid green;
+    position: relative;
+    top: 0;
+}
+
+.absolute_parent {
+    border: 5px solid purple;
+    position: relative;
+    height: 50px;
+}
+
+.absolute {
+    border: 5px solid blue;
+    position: absolute;
+    top: 0x;
+    left: 100px
+}
+
+section {
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+    background-color: blueviolet;
+}
+
+.section_1 {
+    opacity: 1;
+}
+
+.section_2 {
+    opacity: 0.7;
+}
+
+.section_3 {
+    opacity: 0.5;
+}
+
+.section_4 {
+    opacity: 0;
+}
