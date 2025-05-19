@@ -1,0 +1,66 @@
+.container {
+    background-color: #e3985f;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #8B5E3C;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    z-index: 1000;
+}
+
+.static {
+    position: static;
+    font-size: 20px;
+}
+
+.best-seller {
+    background-color: #f0c987;
+    padding: 10px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #e63946;
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(25deg);
+}
+
+.fixed {
+    background-color: #8B5E3C;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    padding: 12px 18px;
+
+    font-family: Georgia, serif;
+    font-weight: bold;
+
+
+    z-index: 10000;
+}
