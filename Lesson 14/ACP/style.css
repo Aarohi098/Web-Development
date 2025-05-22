@@ -1,0 +1,29 @@
+.book-container {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.book-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.buy-btn {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.book-container:hover .buy-btn {
+    display: block;
+}
+
+.see {
+    padding-top: 10px;
+}
