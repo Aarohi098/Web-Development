@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(246, 244, 239);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.jumbotron-style {
+    background: linear-gradient(130deg, rgb(3, 101, 3), rgb(81, 180, 81));
+    color: white;
+    padding: 60px 30px;
+    border-radius: 12px;
+    margin-bottom: 60px
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
