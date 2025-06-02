@@ -1,0 +1,31 @@
+.container {
+    background-color: #fffbea;
+}
+
+.jumbotron-style {
+    background: linear-gradient(150deg, #fef9d7,
+            #d299c2);
+    color: rgb(0, 0, 0);
+    padding: 60px 30px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.collapse {
+    margin-bottom: 50px;
+}
+
+.two {
+    margin-top: 10px;
+}
+
+.badge {
+    margin-top: 10px;
+}

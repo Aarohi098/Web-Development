@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container text-center my-5">
+
+        <div class="container mt-5">
+            <div class="jumbotron-style text-center">
+                <h1 class="display-4 mb-3">📖 2025 Reading Quest</h1>
+                <p class="lead">Fuel your passion — every book counts!</p>
+                <a class="btn btn-light btn btn-lg mt-4 me-2" href="#goals">View Progress</a>
+                <a class="btn btn-outline-black btn-lg mt-4" href="#achievements">My Achievements</a>
+            </div>
+
+            <h2>Recommended Books</h2>
+            <div id="spinnerSection" class="collapse show">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="text-muted">Fetching books...</p>
+
+                <!--data-bs-toggle tells Bootstrap what kind of behavior you want-->
+                <!--data-bs-target tells Bootstrap which element will carry out the behavior-->
+                <button class="btn btn-outline-primary mt-2" data-bs-toggle="collapse"
+                    data-bs-target="#spinnerSection, #bookSection">
+                    Show Books
+                </button>
+            </div>
+
+            <div id="bookSection" class="collapse mt-4">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="The_Land_of_Stories.jpg" class="img-fluid" alt="Book 1">
+                    </div>
+                    <div class="col-4">
+                        <img src="71Q1KDTHXLL._AC_UF894,1000_QL80_.jpg" class="img-fluid" alt="Book 2">
+                    </div>
+                    <div class="col-4">
+                        <img src="81TnrnCKOML._AC_UF894,1000_QL80_.jpg" class="img-fluid" alt="Book 3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-4" id="goals">
+                <div class="progress-label">
+                    <span>🔖 Books Read So Far</span>
+                    <span class="badge bg-danger">48/100</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-danger" style="width: 48%">48%
+                    </div>
+                </div>
+
+                <div class="progress-label">
+                    <span class="two">🔤 Words Read</span>
+                    <span class="badge bg-info">16,500/50,000</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-info" style="width: 33%">33%
+                    </div>
+                </div>
+
+                <div class="progress-label">
+                    <span class="two">🎭 Genres Explored</span>
+                    <span class="badge bg-warning">6/10</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-warning" style="width: 60%">60%
+                    </div>
+                </div>
+            </div>
+
+            <div id="achievements" class="section bg-white rounded shadow-sm p-4">
+                <h3 class="mb-3">🏆 Achievements</h3>
+                <div>
+                    <span class="badge bg-primary">Bookworm Lv.1</span>
+                    <span class=" badge bg-warning">Speed Reader</span>
+                    <span class="badge bg-danger">Mystery Master</span>
+                </div>
+            </div>
+
+            <footer class="container text-center py-4 ">
+                <p class="text-muted">&copy; 2025 Reading Quest</p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
