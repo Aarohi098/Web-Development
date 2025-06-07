@@ -11,7 +11,8 @@
         }
 
         .book-card {
-            max-height: 400px;
+            max-height: 425px;
+            min-height: 425px;
         }
 
         .spinner-area {
@@ -29,39 +30,129 @@
             <h1 class="">Plant Encyclopedia</h1>
             <p>A green guide for every space — big or small.</p>
         </header>
-        <div class="bg-success-subtle">
-            <h3 class="p-3">Air Purifying Plants:</h3>
+
+
+        <div class="spinner-area">
+            <div class="spinner-border text-success">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div class="card-body text-center">
+            <h5 class="card-title">Loading Books...</h5>
+            <p class="card-text">Fetching books on plants</p>
+        </div>
+    </div>
+
+
+    <div class="bg-success-subtle mt-3">
+        <h3 class="p-3">Air Purifying Plants</h3>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card book-card ">
+                    <img src="
+                    https://hortology.co.uk/cdn/shop/files/Sansevieria-trifasciata-Laurentii-Variegated-Snake-Plant-30x90cm-Sven-Plant-Pot-Black-33x28cm_9df4d22f-d739-4a68-b525-5cb6548d99bd_1600x.jpg?v=1734949641"
+                        class="card-img-top" alt="Snake Plant Image">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Snake Plant (Sansevieria)</h5>
+                        <p class="card-text">A hardy plant known for its upright, sword-like leaves. Great for
+                            beginners and purifies indoor air.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card book-card ">
+                    <img src="
+                        https://www.flowerstation.co.uk/cdn/shop/files/spider-plant-res-brown__30216.1691515154.800.800.jpg?v=1720103432"
+                        class="card-img-top" alt="Spider Plant Image">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Spider Plant (Chlorophytum comosum)</h5>
+                        <p class="card-text">A fast-growing plant with arching leaves and baby “spiders” that hang
+                            down. Easy to care for.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card book-card ">
+                    <img src="
+                        https://media.istockphoto.com/id/177320705/photo/white-orchid-house-plant-in-orange-pot.jpg?s=612x612&w=0&k=20&c=SqMo3Zdf6pRMBzdTswZAutLrqgadCfz0B7su6gSgPG0="
+                        class="card-img-top" alt="Peace Lily Image">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Peace Lily (Spathiphyllum)</h5>
+                        <p class="card-text">Famous for its glossy leaves and white flowers. Thrives indoors and
+                            removes toxins effectively.</p>
+                    </div>
+                </div>
+            </div>
 
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card book-card ">
-                        <img src="
-                    https://hortology.co.uk/cdn/shop/files/Sansevieria-trifasciata-Laurentii-Variegated-Snake-Plant-30x90cm-Sven-Plant-Pot-Black-33x28cm_9df4d22f-d739-4a68-b525-5cb6548d99bd_1600x.jpg?v=1734949641"
-                            class="card-img-top" alt="Snake Plant Image">
+                        <img src="https://media.istockphoto.com/id/1227622050/photo/aloe-vera-plant.jpg?s=612x612&w=0&k=20&c=ppXECkjDJfFwU8wTLBKcUD5YvJGarguUkEGfh6V00_U="
+                            class="card-img-top" alt="Aloe Vera Image">
 
                         <div class="card-body">
-                            <h5 class="card-title">Snake Plant (Sansevieria)</h5>
-                            <p class="card-text">A hardy plant known for its upright, sword-like leaves. Great for
-                                beginners and purifies indoor air.</p>
+                            <h5 class="card-title">Aloe Vera</h5>
+                            <p class="card-text">Succulent with thick, fleshy leaves that store water. Known for
+                                soothing skin and improving air quality.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="card book-card ">
-                        <img src="
-                                https://hortology.co.uk/cdn/shop/files/Sansevieria-trifasciata-Laurentii-Variegated-Snake-Plant-30x90cm-Sven-Plant-Pot-Black-33x28cm_9df4d22f-d739-4a68-b525-5cb6548d99bd_1600x.jpg?v=1734949641"
-                            class="card-img-top" alt="Snake Plant Image">
+                        <img src="https://thumbs.dreamstime.com/b/boston-fern-pot-isolated-clear-white-background-286045455.jpg"
+                            class="card-img-top" alt="Boston Fern Image">
 
                         <div class="card-body">
-                            <h5 class="card-title">Spider Plant (Chlorophytum comosum)</h5>
-                            <p class="card-text"></p>
+                            <h5 class="card-title">Boston Fern (Nephrolepis exaltata)</h5>
+                            <p class="card-text">A lush, feathery fern that loves humidity. Great for adding
+                                greenery and freshening air in shady spots.</p>
                         </div>
                     </div>
                 </div>
 
+                <div class="col-md-4">
+                    <div class="card book-card ">
+                        <img src="https://thumbs.dreamstime.com/b/rubber-plant-pot-isolated-white-background-clear-286046025.jpg"
+                            class="card-img-top" alt="Rubber Plant Image">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Rubber Plant (Ficus elastica)</h5>
+                            <p class="card-text">A tall plant with large, shiny leaves. Durable and excellent at
+                                removing indoor pollutants.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <nav class="mt-5 d-flex justify-content-center">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#">Previous</a>
+                    </li>
+                    <li class="page-item active">
+                        <a class="page-link" href="index.html">1</a>
+                    </li>
+                    <li class="page-item ">
+                        <a class="page-link" href="page2.html">2</a>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="page2.html">Next</a>
+                    </li>
+                    </li>
+                </ul>
+            </nav>
         </div>
+    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
