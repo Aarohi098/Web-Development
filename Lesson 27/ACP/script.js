@@ -1,9 +1,24 @@
-const numbers = [' 8 ', ' 21 ', ' 14 ', ' 4 ', ' 11 '];
-document.getElementById('display_array').innerHTML = numbers;
 
-function double() {
-    const updated_numbers = numbers.map(function (x) {
-        return x * 2
-    })
-    document.getElementById('display_update').innerHTML = updated_numbers;
+let originalArray = [2, 5, 8, 3, 7];
+
+let newarray = originalArray.map(function (num) {
+    return num * num;
+});
+
+function ascending() {
+    newarray.sort(function (a, b) {
+        return a - b;
+    });
+    document.getElementById("product_value").innerHTML =
+        "The ascending order of mapped values are: " + newarray.join(", ");
 }
+
+function descending() {
+    newarray.sort(function (a, b) {
+        return b - a;
+    });
+    document.getElementById("product_value").innerHTML =
+        "The descending order of mapped values are: " + newarray.join(", ");
+}
+
+
