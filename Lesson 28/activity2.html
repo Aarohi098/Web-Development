@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Handling</title>
+</head>
+
+<body>
+    <p id="error_message"></p>
+
+    <script>
+        try {
+            alert("No error found!!");
+        } catch (error) {
+            document.getElementById("error_message").innerHTML = error;
+        }    
+    </script>
+</body>
+
+</html>
