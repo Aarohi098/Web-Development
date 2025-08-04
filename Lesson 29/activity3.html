@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Promises</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+
+    <script>
+        function myDisplayer(value) {
+            document.getElementById("demo").innerHTML = value;
+        }
+
+        function sum(a, b) {
+            let sum = a + b;
+            myDisplayer(sum);
+        }
+
+        let myPromise = new Promise(function (resolve, reject) {
+            let x = 0;
+
+            if (x == 0) {
+                resolve("OK");
+            }
+            else {
+                reject("Error, something went wrong!");
+            }
+        })
+
+        myPromise.then(
+            function (value) {
+                sum(5, 5);
+            },
+            function (error) {
+                myDisplayer(error);
+            }
+        );
+    </script>
+</body>
+
+</html>
