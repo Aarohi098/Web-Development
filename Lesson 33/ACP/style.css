@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(48, 112, 210);
+}
+
+h1 {
+    padding: 20px;
+    border-bottom: 2px solid rgb(8, 8, 120);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form {
+    padding: 20px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+input {
+    border: 2px solid rgb(8, 8, 120);
+    padding: 5px;
+    border-radius: none;
+}
+
+button {
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(48, 112, 210);
+    color: rgb(8, 8, 120);
+    font-weight: bold;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+ul li {
+    margin: 10px;
+}
+
+ul li button {
+    width: 100px;
+    padding: 2px;
+}
