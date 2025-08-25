@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(42, 40, 40);
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.clock-container {
+    background-color: rgb(6, 6, 6);
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(196, 194, 194);
+}
+
+#clock {
+    color: rgb(221, 216, 216);
+    font-size: 30px;
+    letter-spacing: 3px;
+}
