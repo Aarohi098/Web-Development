@@ -39,13 +39,16 @@ function showTime() {
         session = "PM";
     }
 
-    h = h < 10 ? "0" + h : h;
-    m = m < 10 ? "0" + m : m;
-    s = s < 10 ? "0" + s : s;
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
 
     let time = h + ":" + m + ":" + s + " " + session;
-    document.getElementsByClassName("time").innerHTML = time;
 
-    setTimeout(showTime, 1000)
+    // Fix: Access the first element in the collection returned by getElementsByClassName
+    document.getElementsByClassName("time")[0].innerHTML = time;
+
+    setTimeout(showTime, 1000);
 }
+
 showTime();

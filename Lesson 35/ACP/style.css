@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    padding: 5px;
+    margin-right: 11px;
+    background-color: cornflowerblue;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px black;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(54, 54, 238);
+}
