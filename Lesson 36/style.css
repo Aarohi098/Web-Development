@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dice {
+    font-size: 320px;
+}
+
+#dice:hover {
+    cursor: pointer;
+}
