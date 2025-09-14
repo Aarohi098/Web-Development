@@ -1,0 +1,223 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(157, 231, 172);
+    font-family: "Dancing Script", cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(35, 188, 68, 81);
+    color: rgb(224, 244, 255);
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: aliceblue;
+    color: rgb(12, 140, 23);
+}
+
+
+
+.body p {
+    font-size: 40px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highlights {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlights h2 {
+    text-align: center;
+    color: darkgreen;
+}
+
+.highlights ul {
+    list-style: square;
+    padding-left: 40px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: darkgreen;
+}
+
+/*End of home page*/
+/*Start of Menu Page*/
+
+.body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-section {
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu-section>h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(12, 140, 23);
+    font-size: 28px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    margin: 12px 14px 6px;
+    font-size: 18px;
+    color: rgb(35, 188, 68);
+}
+
+.card .desc {
+    margin: 0 14px 8px;
+    color: #444;
+    font-size: 14px;
+}
+
+.card .price {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+.card .btn {
+    margin: 12px 14px 16px;
+    align-self: center;
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: rgb(35, 188, 68);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+}
+
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.card .btn:hover {
+    background-color: rgb(12, 140, 23);
+}
+
+
+/*End of menu page*/
+/*Start of about us page*/
+.about {
+    background-color: #fff5e6;
+
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgb(157, 231, 172);
+    color: #01260d;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0b702d;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+
+}
+
+.about strong {
+    color: #22b259;
+}
+
+/*End of About us*/
+/*Start of Contact*/
+.body3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.message {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
