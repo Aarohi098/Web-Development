@@ -36,3 +36,34 @@ body {
     background-color: aliceblue;
     color: rgb(91, 91, 252);
 }
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
