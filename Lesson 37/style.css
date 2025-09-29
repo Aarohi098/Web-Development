@@ -223,3 +223,30 @@ form button {
 form button:hover {
     background: rgb(54, 54, 182);
 }
+
+footer {
+    background-color: rgb(73, 73, 196);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 15px;
+}
+
+.contactinfo i {
+    margin-right: 8px;
+    color: rgb(73, 73, 196);
+}
+
+.contactinfo {
+    text-align: center;
+    margin-top: 1rem;
+    color: #333;
+}
+
+.contactinfo p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
