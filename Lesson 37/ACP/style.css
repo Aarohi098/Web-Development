@@ -256,3 +256,44 @@ body {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+
+.message {
+    padding: 10px;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.one,
+.two {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+.second-row .card {
+    max-width: 200px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.third-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
